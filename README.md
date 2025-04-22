@@ -19,12 +19,12 @@ El programa presenta un menú interactivo que permite al usuario realizar las si
   - **Nombre** de la tarea.
   - **Descripción** de la tarea.
   - **Tipo** de tarea: Personal, Trabajo u Ocio.
-  - **Prioridad**: Alta o Baja.
+  - **Prioridad**: Prioritaria (true) o No Prioritaria (false).
 - El ID de la tarea se genera automáticamente y es único.
 
 ### 2. Buscar Tareas
 - **Por Tipo**: Filtra las tareas según su tipo (Personal, Trabajo u Ocio).
-- **Por Prioridad**: Filtra las tareas según su prioridad (Alta o Baja).
+- **Por Prioridad**: Filtra las tareas según su prioridad (true o false).
 - **Por ID**: Busca una tarea específica por su identificador único.
 
 ### 3. Mostrar Todas las Tareas
