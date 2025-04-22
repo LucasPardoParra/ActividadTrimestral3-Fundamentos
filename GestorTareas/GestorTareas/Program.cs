@@ -1,15 +1,4 @@
-﻿// - Crear tareas: se pedirá el nombre, descripción, tipo y prioridad de la tarea y el id se asignará automáticamente y será único para cada tarea
-// - Buscar tareas por tipo: se pedirá un tipo de tarea y se mostrarán todas las tareas
-// - Buscar tareas por prioridad: se pedirá un booleano (true/false) y se mostrarán todas las tareas
-// - Buscar tareas por id: se pedirá un id y se mostrará la tarea con el id indicado
-// - Mostrar todas las tareas: se mostrarán todas las tareas que hay en la lista de tareas
-// - Eliminar tarea: se pedirá un id y se eliminará la tarea con el id indicado
-// - Exportar tareas: se generará un fichero llamado tareas.txt con la información de todas
-// las tareas, donde en cada fila aparecerá el id, nombre, descripción, tipo y prioridad de
-// - Importar tareas: se guardarán en la lista que gestiona la app las tareas ubicadas en el
-// fichero tareas.txt.
-
-public class Program
+﻿public class Program
 {
     public static void Main(string[] args)
     {
