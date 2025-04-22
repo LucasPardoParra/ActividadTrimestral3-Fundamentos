@@ -5,22 +5,10 @@ El **Gestor de Tareas** es una aplicación de consola desarrollada en **C#** que
 ## ✨ Características
 
 - **📋 Crear tareas**: Permite ingresar el nombre, descripción, tipo y prioridad de una tarea.
-- **🔍 Buscar tareas por tipo**: Filtra y muestra las tareas según su tipo (personal, trabajo u ocio).
+- **🔍 Buscar tareas**: Filtra y muestra las tareas según su ID, tipo o prioridad.
 - **🗑️ Eliminar tareas**: Elimina una tarea específica mediante su identificador único.
 - **📤 Exportar tareas**: Genera un archivo `tareas.txt` con la información de todas las tareas registradas.
 - **📥 Importar tareas**: Carga las tareas desde el archivo `tareas.txt` y las agrega a la lista gestionada por la aplicación.
-
-## 📌 Consideraciones
-
-1. **Identificador único**: Cada tarea tiene un identificador (`id`) que se asigna automáticamente y es único.
-2. **Tipos de tarea**: Los tipos de tarea están limitados a las siguientes categorías:
-   - Personal
-   - Trabajo
-   - Ocio  
-   Esto se implementa mediante un enumerado (`enum`).
-3. **Prioridad**: La prioridad de una tarea se define como un valor booleano:
-   - `true`: Alta prioridad.
-   - `false`: Baja prioridad.
 
 ## ⚙️ Funcionamiento
 
@@ -40,12 +28,7 @@ El programa presenta un menú interactivo que permite al usuario realizar las si
 - **Por ID**: Busca una tarea específica por su identificador único.
 
 ### 3. Mostrar Todas las Tareas
-- Muestra todas las tareas almacenadas en la lista, incluyendo:
-  - ID
-  - Nombre
-  - Descripción
-  - Tipo
-  - Prioridad
+- Muestra todas las tareas almacenadas en la lista, incluyendo toda su información relacionada.
 
 ### 4. Eliminar Tareas
 - Permite eliminar una tarea específica ingresando su ID.
