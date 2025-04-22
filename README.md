@@ -26,23 +26,39 @@ El **Gestor de Tareas** es una aplicación de consola desarrollada en **C#** que
 
 El programa presenta un menú interactivo que permite al usuario realizar las siguientes acciones:
 
-1. **Crear tareas**:
-   - Solicita al usuario el nombre, descripción, tipo y prioridad de la tarea.
-   - Valida los datos ingresados para garantizar su corrección.
+### 1. Crear Tareas
+- Permite al usuario ingresar:
+  - **Nombre** de la tarea.
+  - **Descripción** de la tarea.
+  - **Tipo** de tarea: Personal, Trabajo u Ocio.
+  - **Prioridad**: Alta o Baja.
+- El ID de la tarea se genera automáticamente y es único.
 
-2. **Buscar tareas por tipo**:
-   - Permite al usuario seleccionar un tipo de tarea (personal, trabajo u ocio).
-   - Muestra todas las tareas que coinciden con el tipo seleccionado.
+### 2. Buscar Tareas
+- **Por Tipo**: Filtra las tareas según su tipo (Personal, Trabajo u Ocio).
+- **Por Prioridad**: Filtra las tareas según su prioridad (Alta o Baja).
+- **Por ID**: Busca una tarea específica por su identificador único.
 
-3. **Eliminar tareas**:
-   - Solicita al usuario el identificador (`id`) de la tarea que desea eliminar.
-   - Elimina la tarea correspondiente si el identificador es válido.
+### 3. Mostrar Todas las Tareas
+- Muestra todas las tareas almacenadas en la lista, incluyendo:
+  - ID
+  - Nombre
+  - Descripción
+  - Tipo
+  - Prioridad
 
-4. **Exportar tareas**:
-   - Genera un archivo de texto (`tareas.txt`) con la información de todas las tareas registradas.
-   - Cada fila del archivo contiene los datos de una tarea: `id`, nombre, descripción, tipo y prioridad.
+### 4. Eliminar Tareas
+- Permite eliminar una tarea específica ingresando su ID.
 
-5. **Importar tareas**:
-   - Carga las tareas desde el archivo `tareas.txt` y las agrega a la lista de tareas gestionadas por la aplicación.
+### 5. Exportar Tareas
+- Exporta todas las tareas a un archivo de texto (`tareas.txt`).
+- Cada tarea se guarda en una línea con el formato `id,nombre,descripcion,tipo,prioridad`
 
-### 📢 Proyecto creado por Lucas Pardo. 
+### 6. Importar Tareas
+- Importa tareas desde un archivo de texto (`tareas.txt`).
+- Las tareas se agregan a la lista existente.
+
+### 7. Salir
+- Finaliza la ejecución del programa.
+
+### 📢 Proyecto creado por Lucas Pardo como parte de las actividades trimestrales del GS Desarrollo de Aplicaciones Web. 
